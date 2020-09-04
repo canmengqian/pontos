@@ -1,8 +1,12 @@
 package com.zzz.pontos.java.stream;
 
+import lombok.*;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.io.PrintStream;
 import java.util.*;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -50,5 +54,40 @@ public class StreamService {
         System.out.println("统计元素个数:"+statistics.getCount());
         statistics.accept(10);
         System.out.println("统计元素个数:"+statistics.getCount());
+    }
+    @Test
+    public void test_optional() throws MyException {
+        User user1 = null;
+        User user2 = User.builder().age(25).name("张三").build();
+      //TODO  Optional<User> optionalUser = Optional.of(user1);//使用of会抛出空指针异常
+       // Assertions.assertNull(optionalUser.get()) ;
+      user1 =   Optional.ofNullable(user1).orElse(user2);
+        System.out.println(user1.toString());
+        user1 = Optional.ofNullable(user1).orElseGet(()->{return  user2;});
+        System.out.println(user1.toString());
+        user1 = null;
+        /**
+         * 自定义异常
+         */
+       /*user1= Optional.ofNullable(user1).orElseThrow(MyException::new);
+        System.out.println(user1.toString());
+        Assertions.assertNull(user1);*/
+    }
+
+}
+@Data
+@AllArgsConstructor
+@Builder
+@NoArgsConstructor
+@ToString
+class  User {
+    private String name ;
+    private int  age ;
+}
+
+class MyException extends   Throwable {
+    @Override
+    public String getMessage() {
+        return "自定义异常";
     }
 }
