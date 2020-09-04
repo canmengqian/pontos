@@ -1,4 +1,4 @@
-package com.zzz.pontos.java.function.interfaces;
+package com.zzz.pontos.java.lambada.function.interfaces;
 @FunctionalInterface
 interface Service {
     String showmasseage(String message) ;

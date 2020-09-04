@@ -1,12 +1,9 @@
-package com.zzz.pontos.java.stream;
+package com.zzz.pontos.java.lambada.stream;
 
 import lombok.*;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.io.PrintStream;
 import java.util.*;
-import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 

@@ -1,4 +1,4 @@
-package com.zzz.pontos.java.function.defaultfunct;
+package com.zzz.pontos.java.lambada.function.defaultfunct;
 
 public class Service implements  GranParentService,ParentService {
     @Override

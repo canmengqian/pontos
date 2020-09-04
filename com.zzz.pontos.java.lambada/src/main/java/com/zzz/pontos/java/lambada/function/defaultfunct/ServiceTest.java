@@ -1,4 +1,4 @@
-package com.zzz.pontos.java.function.defaultfunct;
+package com.zzz.pontos.java.lambada.function.defaultfunct;
 
 import org.junit.jupiter.api.Test;
 
