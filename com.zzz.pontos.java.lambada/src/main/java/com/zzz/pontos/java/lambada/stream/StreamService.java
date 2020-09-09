@@ -52,6 +52,11 @@ public class StreamService {
         statistics.accept(10);
         System.out.println("统计元素个数:"+statistics.getCount());
     }
+
+    /**
+     * Optional 简单使用
+     * @throws MyException
+     */
     @Test
     public void test_optional() throws MyException {
         User user1 = null;
