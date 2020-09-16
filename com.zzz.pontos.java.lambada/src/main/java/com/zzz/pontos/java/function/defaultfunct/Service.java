@@ -7,4 +7,8 @@ public class Service implements  GranParentService,ParentService {
         ParentService.super.call();
         System.out.println("call me son !");
     }
+
+    static void name() {
+        System.out.println("call me static son !");
+    }
 }
