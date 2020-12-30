@@ -7,12 +7,10 @@ import org.beetl.sql.core.*;
 import org.beetl.sql.core.db.H2Style;
 import org.beetl.sql.ext.DBInitHelper;
 import org.beetl.sql.ext.DebugInterceptor;
+import org.beetl.sql.mapper.BaseMapper;
 
 import javax.sql.DataSource;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * @ClassName QuickTest
@@ -76,5 +74,21 @@ public class QuickTest {
         String name="lijz";
         SQLReady updateSqlReady = new SQLReady(updateSql,new Object[]{name,id});
         sqlManager.executeUpdate(updateSqlReady);
+        // 模板SQL
+         sql = "select * from sys_user where department_id=#{id} and name=#{name}";
+        UserInfo paras = new UserInfo();
+        paras.setDepartmentId(1);
+        paras.setName("lijz");
+        list = sqlManager.execute(sql,UserInfo.class,paras);
+
+        //TODO Map类型
+        /* sql = "select * from sys_user where department_id=#{myDeptId} and name=#{myName}";
+        Map parasmap = new HashMap();
+        parasmap.put("myDeptId",1);
+        parasmap.put("myName","lijz");
+        list = sqlManager.execute(sql,UserInfo.class,paras);*/
+
+        //TODO 文件模板
+        BaseMapper
     }
 }
