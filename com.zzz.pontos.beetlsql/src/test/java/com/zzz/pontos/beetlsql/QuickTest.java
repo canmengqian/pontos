@@ -11,6 +11,7 @@ import org.beetl.sql.ext.DebugInterceptor;
 import javax.sql.DataSource;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -59,6 +60,21 @@ public class QuickTest {
         // 主键查询
         UserInfo user  = sqlManager.unique(UserInfo.class,1);
         System.out.println(user.toString());
+        //按照模板查询
+        UserInfo template = new UserInfo();
+        template.setDepartmentId(1);
+        List<UserInfo> list = sqlManager.template(template);
+        list.forEach(System.out::println);
 
+        //执行SQL
+        String sql = "select * from sys_user where id=?";
+        Integer id  = 1;
+        SQLReady sqlReady = new SQLReady(sql,new Object[]{id});
+        List<UserInfo> userEntities = sqlManager.execute(sqlReady,UserInfo.class);
+
+        String updateSql = "update sys_user set name=? where id =?";
+        String name="lijz";
+        SQLReady updateSqlReady = new SQLReady(updateSql,new Object[]{name,id});
+        sqlManager.executeUpdate(updateSqlReady);
     }
 }
