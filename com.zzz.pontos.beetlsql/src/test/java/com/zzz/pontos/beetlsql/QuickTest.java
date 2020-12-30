@@ -5,6 +5,7 @@ import com.zzz.pontos.beetlsql.entity.UserInfo;
 import org.beetl.sql.clazz.TableDesc;
 import org.beetl.sql.core.*;
 import org.beetl.sql.core.db.H2Style;
+import org.beetl.sql.core.query.Query;
 import org.beetl.sql.ext.DBInitHelper;
 import org.beetl.sql.ext.DebugInterceptor;
 import org.beetl.sql.mapper.BaseMapper;
@@ -89,6 +90,10 @@ public class QuickTest {
         list = sqlManager.execute(sql,UserInfo.class,paras);*/
 
         //TODO 文件模板
-        BaseMapper
+
+        // Query
+        Query<UserInfo> query = sqlManager.query(UserInfo.class);
+        query.andEq("department_id",1)
+                .andIsNotNull("name").select().forEach(System.out::println);
     }
 }
