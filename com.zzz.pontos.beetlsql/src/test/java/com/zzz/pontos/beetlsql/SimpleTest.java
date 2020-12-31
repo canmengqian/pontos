@@ -1,7 +1,7 @@
 package com.zzz.pontos.beetlsql;
 
 import com.zzz.pontos.beetlsql.entity.UserInfo;
-import com.zzz.pontos.beetlsql.mapper.SimpleUserInfoMapper;
+import com.zzz.pontos.beetlsql.mapper.UserMapper;
 import org.beetl.sql.core.SQLManager;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -24,7 +24,7 @@ public class SimpleTest {
     @Autowired
     SQLManager sqlManager;
     @Autowired
-    SimpleUserInfoMapper userInfoMapper;
+    UserMapper userInfoMapper;
     @Test
     public void test(){
         sqlManager.single(UserInfo.class,1);

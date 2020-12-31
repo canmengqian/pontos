@@ -2,13 +2,16 @@ package com.zzz.pontos.beetlsql;
 
 import com.zaxxer.hikari.HikariDataSource;
 import com.zzz.pontos.beetlsql.entity.UserInfo;
+import org.beetl.sql.annotation.entity.AssignID;
 import org.beetl.sql.clazz.TableDesc;
 import org.beetl.sql.core.*;
 import org.beetl.sql.core.db.H2Style;
+import org.beetl.sql.core.db.MySqlStyle;
 import org.beetl.sql.core.query.Query;
 import org.beetl.sql.ext.DBInitHelper;
 import org.beetl.sql.ext.DebugInterceptor;
 import org.beetl.sql.mapper.BaseMapper;
+import org.beetl.sql.mapper.annotation.*;
 
 import javax.sql.DataSource;
 import java.util.*;
@@ -88,12 +91,57 @@ public class QuickTest {
         parasmap.put("myDeptId",1);
         parasmap.put("myName","lijz");
         list = sqlManager.execute(sql,UserInfo.class,paras);*/
-
-        //TODO 文件模板
-
         // Query
         Query<UserInfo> query = sqlManager.query(UserInfo.class);
         query.andEq("department_id",1)
                 .andIsNotNull("name").select().forEach(System.out::println);
+
+       // 使用LambdaQuery，能很好的支持数据库重构
+        sqlManager
+                .lambdaQuery(UserInfo.class).andEq(UserInfo::getDepartmentId,1)
+                .select("id","name").forEach(System.out::println);
+        //使用Mapper
+        UserMapper mapper = sqlManager.getMapper(UserMapper.class);
+        System.out.println(mapper.getUserById(1).toString());
+        System.out.println(mapper.queryUserById(1).toString());
+        System.out.println(mapper.unique(1));
+
+        //TODO 文件模板
+        SqlId sqlId = SqlId.of("user","select");
+        Map map = new HashMap();
+        map.put("name","n");
+       sqlManager.getMapper(UserMapper2.class).select("n").forEach(System.out::println);
+       // @SqlResource注解模式
+        sqlManager.select(sqlId,UserInfo.class,map).forEach(System.out::println);
     }
+
+}
+/**
+ * @Author zhengzz
+ * @Description //TODO
+ * @Date 9:23 2020/12/31
+ * @Param
+ * @return
+ **/
+ interface UserMapper extends BaseMapper<UserInfo> {
+     @Sql("select * from sys_user where id = ?")
+     @Select
+     UserInfo queryUserById(Integer id);
+
+     @Sql("update sys_user set name=? where id = ?")
+     @Update
+     int updateName(String name,Integer id);
+
+     @Template("select * from sys_user where id = #{id}")
+     UserInfo getUserById(Integer id);
+}
+
+@SqlResource("user") /*sql文件在user.md里*/
+interface UserMapper2 extends BaseMapper<UserInfo> {
+    /**
+     * 调用sql文件user.md#select,方法名即markdown片段名字
+     * @param name
+     * @return
+     */
+    List<UserInfo> select(String name);
 }
