@@ -27,6 +27,7 @@ public class FunctionRefference {
         public void repair() {
             System.out.println("Repaired " + this.toString());
         }
+
         public void repair(Car car) {
             System.out.println("Repaired 2" + this.toString());
         }
@@ -34,7 +35,7 @@ public class FunctionRefference {
 
     @Test
     public void test() {
-         FunctionRefference.Car car= Car.create(Car::new);
+        FunctionRefference.Car car = Car.create(Car::new);
         List<Car> cars = Arrays.asList(car);
         cars.forEach(Car::collide);
         cars.forEach(Car::repair);

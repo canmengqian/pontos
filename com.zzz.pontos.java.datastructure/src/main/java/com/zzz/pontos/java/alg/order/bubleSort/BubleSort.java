@@ -11,28 +11,28 @@ import java.util.Arrays;
  **/
 public class BubleSort {
     public static int[] sort(int[] nums) {
-        for(int i = 0 ; i< nums.length ; i++) {
+        for (int i = 0; i < nums.length; i++) {
 
-            for (int j = i+1 ; j< nums.length ; j++) {
-                if(nums[i] > nums[j]) {
-                   int tmp = nums[i];
-                   nums[i]=nums[j];
-                   nums[j]=tmp;
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] > nums[j]) {
+                    int tmp = nums[i];
+                    nums[i] = nums[j];
+                    nums[j] = tmp;
                 }
             }
             for (int num : nums) {
-                System.out.print(num+"\t");
+                System.out.print(num + "\t");
             }
             System.out.println();
         }
-        return  nums;
+        return nums;
     }
 
     public static void main(String[] args) {
-        int[] nums = {6,5,4,3,2,1};
-       nums=  BubleSort.sort(nums);
-       for (int num : nums) {
-           System.out.print(num+"\t");
-       }
+        int[] nums = {6, 5, 4, 3, 2, 1};
+        nums = BubleSort.sort(nums);
+        for (int num : nums) {
+            System.out.print(num + "\t");
+        }
     }
 }

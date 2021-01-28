@@ -4,8 +4,8 @@ import org.junit.jupiter.api.Test;
 
 public class FunctionInterfaceTest {
     @Test
-    public void  testFunctionInterface() {
-        Service service  = (str) -> {
+    public void testFunctionInterface() {
+        Service service = (str) -> {
             return str;
         };
 

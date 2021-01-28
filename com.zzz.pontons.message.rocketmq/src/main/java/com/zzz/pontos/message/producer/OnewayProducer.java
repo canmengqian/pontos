@@ -12,7 +12,7 @@ import org.apache.rocketmq.remoting.common.RemotingHelper;
  * @Version 1.0.0
  **/
 public class OnewayProducer {
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         // 实例化消息生产者Producer
         DefaultMQProducer producer = new DefaultMQProducer("please_rename_unique_group_name");
         // 设置NameServer的地址

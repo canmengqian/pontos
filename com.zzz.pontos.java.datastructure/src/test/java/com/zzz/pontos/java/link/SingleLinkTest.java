@@ -24,13 +24,17 @@ public class SingleLinkTest {
         System.out.println();
         System.out.println("--------------------头删法---------------------");
         link.delHead();
-        link.print();System.out.println();
+        link.print();
+        System.out.println();
         link.delHead();
-        link.print();System.out.println();
+        link.print();
+        System.out.println();
         link.delHead();
-        link.print();System.out.println();
+        link.print();
+        System.out.println();
         link.delHead();
-        link.print();System.out.println();
+        link.print();
+        System.out.println();
     }
 
 }

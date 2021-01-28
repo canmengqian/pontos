@@ -8,10 +8,10 @@ public class ServiceTest {
         Service service = new Service();
         service.call();
 
-        GranParentService granParentService = (int a ,int b) -> {
-            return a-b;
+        GranParentService granParentService = (int a, int b) -> {
+            return a - b;
         }
-        GranParentService granParentService = (String name) ->{
+        GranParentService granParentService = (String name) -> {
             System.out.println(name);
         };
     }

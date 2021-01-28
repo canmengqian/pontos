@@ -15,19 +15,21 @@ public class SingleLink<T> {
 
     LinkNode<T> head;
 
-   private   Integer size  ;
+    private Integer size;
+
     /**
      * 头插法
+     *
      * @param t
      */
     public void addHead(T t) {
-        if(head == null) {
-            head = new LinkNode<>(t,null);
+        if (head == null) {
+            head = new LinkNode<>(t, null);
             size = 1;
-        }else {
+        } else {
             LinkNode curNode = head;
-            LinkNode newNode = new LinkNode(t,null);
-            head= newNode;
+            LinkNode newNode = new LinkNode(t, null);
+            head = newNode;
             head.setNext(curNode);
             size++;
         }
@@ -35,19 +37,20 @@ public class SingleLink<T> {
 
     /**
      * 尾插法
+     *
      * @param t
      */
-    public void addTail(T t ) {
-        if(head == null) {
-            head = new LinkNode<>(t,null);
+    public void addTail(T t) {
+        if (head == null) {
+            head = new LinkNode<>(t, null);
             size = 1;
             return;
         }
-        LinkNode curNode = head ;
-        while (curNode.getNext()!=null) {
+        LinkNode curNode = head;
+        while (curNode.getNext() != null) {
             curNode = curNode.getNext();
         }
-        LinkNode newNode = new LinkNode(t,null);
+        LinkNode newNode = new LinkNode(t, null);
         curNode.setNext(newNode);
         size++;
     }
@@ -58,30 +61,31 @@ public class SingleLink<T> {
     public void print() {
         LinkNode curNode = head;
         while (curNode != null) {
-           T t = (T) curNode.getData();
-            System.out.print(t+"\t");
+            T t = (T) curNode.getData();
+            System.out.print(t + "\t");
             curNode = curNode.getNext();
         }
     }
 
     public T delHead() {
         LinkNode delNode = null;
-        if(head==null) {
+        if (head == null) {
             return null;
-        }else {
+        } else {
             delNode = head;
             LinkNode nextNode = head.getNext();
             head = nextNode;
         }
         T data = (T) delNode.getData();
-        delNode = null ;
-        return  data;
+        delNode = null;
+        return data;
     }
 }
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 class LinkNode<T> {
-    private  T data ;
+    private T data;
     private LinkNode next;
 }
