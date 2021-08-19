@@ -1,0 +1,9 @@
+package rules;
+dialect  "mvel"
+import  com.pontons.drools.entity.Person
+rule "person"
+    when
+        $p:Person()
+    then
+        System.out.println("hello" + $p.toString());
+end

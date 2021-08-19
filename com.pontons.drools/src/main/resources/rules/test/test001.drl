@@ -1,0 +1,11 @@
+package rules.test;
+dialect  "mvel"
+import com.pontons.drools.entity.*
+
+rule "test001"
+when
+    $p:Person();
+then
+     System.out.println("Hello world");
+     System.out.println("test001 person:"+$p.toString());
+end

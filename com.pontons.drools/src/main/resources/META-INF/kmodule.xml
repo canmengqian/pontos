@@ -9,6 +9,16 @@
     <kbase name="HelloWorldKB" packages="rules">
         <ksession name="HelloWorldKS" type="stateful"/>
     </kbase>
+    <!--<kbase name="kbase1" packages="rules">
+        <ksession name="person" type="stateful"></ksession>
+    </kbase>-->
+   <!-- <kbase name="kbase2" packages="rules">
+        <ksession name="person2" type="stateful"></ksession>
+    </kbase>-->
+
+    <kbase name="test001" includes="" packages="rules.test" default="false" eventProcessingMode="stream" equalsBehavior="equality" declarativeAgenda="enabled">
+        <ksession name="test001" type="stateful"></ksession>
+    </kbase>
 
 
 </kmodule>

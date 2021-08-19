@@ -1,0 +1,20 @@
+package rules.person2;
+dialect  "java"
+import  com.pontons.drools.entity.Person
+
+
+rule "test001"
+when
+    $p:Person();
+then
+     System.out.printf("test001 person:"+$p.toString());
+     $p.setName("lisi");
+end
+
+rule "test002"
+when
+    $p:Person(name=="lisi");
+then
+    $p.setAge(40);
+    update($p);
+end
