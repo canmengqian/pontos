@@ -26,7 +26,8 @@ import java.util.List;
  * @Version 1.0.0
  */
 public class GennerCoderTest {
-    SQLManager sqlManager ;
+    SQLManager sqlManager;
+
     {
         HikariDataSource ds = new HikariDataSource();
         //内存数据库
@@ -45,11 +46,12 @@ public class GennerCoderTest {
         //数据库风格，因为用的是H2,所以使用H2Style,
         builder.setDbStyle(new H2Style());
         SQLManager sqlManager = builder.build();
-       this.sqlManager = sqlManager;
+        this.sqlManager = sqlManager;
     }
-@Test
-    public void  genTest() {
-    DBInitHelper.executeSqlScript(sqlManager,"db/schema.sql");
+
+    @Test
+    public void genTest() {
+        DBInitHelper.executeSqlScript(sqlManager, "db/schema.sql");
         List<SourceBuilder> sourceBuilder = new ArrayList<>();
         SourceBuilder entityBuilder = new EntitySourceBuilder();
         SourceBuilder mapperBuilder = new MapperSourceBuilder();
@@ -59,13 +61,13 @@ public class GennerCoderTest {
         sourceBuilder.add(mapperBuilder);
         sourceBuilder.add(mdBuilder);
 
-        SourceConfig config = new SourceConfig(sqlManager,sourceBuilder);
+        SourceConfig config = new SourceConfig(sqlManager, sourceBuilder);
 //如果有错误，抛出异常而不是继续运行1
-        EntitySourceBuilder.getGroupTemplate().setErrorHandler(new ReThrowConsoleErrorHandler() );
+        EntitySourceBuilder.getGroupTemplate().setErrorHandler(new ReThrowConsoleErrorHandler());
 
         ConsoleOnlyProject project = new ConsoleOnlyProject();
         String tableName = "sys_user";
 //可以在控制台看到生成的所有代码
-        config.gen(tableName,project);
+        config.gen(tableName, project);
     }
 }

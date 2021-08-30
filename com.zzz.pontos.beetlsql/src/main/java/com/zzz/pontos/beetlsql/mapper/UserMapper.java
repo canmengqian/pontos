@@ -13,5 +13,5 @@ import org.beetl.sql.mapper.annotation.SqlResource;
  */
 @SqlResource("user")
 public interface UserMapper extends BaseMapper<UserInfo> {
-    public  void selectOne();
+    public void selectOne();
 }

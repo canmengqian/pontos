@@ -4,8 +4,10 @@ import lombok.*;
 import org.junit.jupiter.api.Test;
 
 import java.util.*;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 /**
  * @ClassName StreamService
@@ -61,6 +63,27 @@ public class StreamService {
         System.out.println("统计元素个数:" + statistics.getCount());
     }
 
+    @Test
+    public void testMapReduce() {
+        List<String> names = new ArrayList<>();
+        names.add("1");
+        names.add("2");
+        List<Integer> numList = names.stream().map(str -> {
+            return Integer.valueOf(str);
+        }).collect(Collectors.toList());
+        numList.forEach(System.out::println);
+    }
+
+    @Test
+    public void testStream() {
+        Predicate<Object> condition1 = num -> (Double) num > 0;
+        Predicate condition = Predicate.isEqual(1D).or(condition1);
+        Stream.generate(Math::random).filter(condition).limit(10).forEach(System.out::println);
+        // 基于种子
+        Stream.iterate(1, item -> item + 1).limit(10).forEach(System.out::println);
+        //Stream.iterate(1, item -> item + 1).limit(10).collect()
+    }
+
     /**
      * Optional 简单使用
      *
@@ -87,17 +110,17 @@ public class StreamService {
         Assertions.assertNull(user1);*/
     }
 
+    @Data
+    @AllArgsConstructor
+    @Builder
+    @NoArgsConstructor
+    @ToString
+    static class User {
+        private String name;
+        private int age;
+    }
 }
 
-@Data
-@AllArgsConstructor
-@Builder
-@NoArgsConstructor
-@ToString
-class User {
-    private String name;
-    private int age;
-}
 
 class MyException extends Throwable {
     @Override

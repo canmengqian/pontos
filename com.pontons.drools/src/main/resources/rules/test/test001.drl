@@ -2,7 +2,9 @@ package rules.test;
 dialect  "mvel"
 import com.pontons.drools.entity.*
 
+
 rule "test001"
+no-loop true
 when
     $p:Person();
 then

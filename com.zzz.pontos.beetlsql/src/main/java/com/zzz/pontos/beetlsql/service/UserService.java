@@ -12,8 +12,8 @@ import org.springframework.beans.factory.annotation.Autowired;
  */
 public class UserService {
     @Autowired
-   // UserMapper userMapper;
-    public void addUser(UserInfo userInfo){
+    // UserMapper userMapper;
+    public void addUser(UserInfo userInfo) {
         //userMapper.insert(userInfo);
     }
 }

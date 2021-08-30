@@ -38,12 +38,12 @@ public class SimpleDataSourceConfig {
     }
 
     @Bean
-    public SQLManagerCustomize mySQLManagerCustomize(){
-        return new SQLManagerCustomize(){
+    public SQLManagerCustomize mySQLManagerCustomize() {
+        return new SQLManagerCustomize() {
             @Override
             public void customize(String sqlMangerName, SQLManager manager) {
                 //初始化sql，这里也可以对sqlManager进行修改
-                DBInitHelper.executeSqlScript(manager,"db/schema.sql");
+                DBInitHelper.executeSqlScript(manager, "db/schema.sql");
 
             }
         };

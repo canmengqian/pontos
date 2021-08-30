@@ -12,7 +12,7 @@ import org.beetl.sql.annotation.entity.Table;
  * Date 2020/12/30
  * @Version 1.0.0
  */
-@Table(name="sys_user")
+@Table(name = "sys_user")
 @Data
 @ToString
 public class UserInfo {

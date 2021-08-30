@@ -16,6 +16,7 @@ class BeetlsqlApplicationTests {
     @Test
     void contextLoads() {
     }
+
     public static void main(String[] args) {
         SpringApplication.run(BeetlsqlApplicationTests.class, args);
     }

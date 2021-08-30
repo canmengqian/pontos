@@ -25,9 +25,10 @@ public class SimpleTest {
     SQLManager sqlManager;
     @Autowired
     UserMapper userInfoMapper;
+
     @Test
-    public void test(){
-        sqlManager.single(UserInfo.class,1);
-       userInfoMapper.all().forEach(System.out::println);
+    public void test() {
+        sqlManager.single(UserInfo.class, 1);
+        userInfoMapper.all().forEach(System.out::println);
     }
 }
