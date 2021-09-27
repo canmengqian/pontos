@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/com.pontons.authentic/com.pontons.authentic.iml" filepath="$PROJECT_DIR$/com.pontons.authentic/com.pontons.authentic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.pontons.drools/com.pontons.drools.iml" filepath="$PROJECT_DIR$/com.pontons.drools/com.pontons.drools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.pontons.spring.base/com.pontons.jwt/com.pontons.jwt.iml" filepath="$PROJECT_DIR$/com.pontons.spring.base/com.pontons.jwt/com.pontons.jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.pontons.math/com.pontons.math.iml" filepath="$PROJECT_DIR$/com.pontons.math/com.pontons.math.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.pontons.mockito.demo/com.pontons.mockito.demo.iml" filepath="$PROJECT_DIR$/com.pontons.mockito.demo/com.pontons.mockito.demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.pontons.spring.base/com.pontons.spring.base.iml" filepath="$PROJECT_DIR$/com.pontons.spring.base/com.pontons.spring.base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.pontons.vavr.demo/com.pontons.vavr.demo.iml" filepath="$PROJECT_DIR$/com.pontons.vavr.demo/com.pontons.vavr.demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.pontons.easyrules.demo/easyrules.demo.iml" filepath="$PROJECT_DIR$/com.pontons.easyrules.demo/easyrules.demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pontos.iml" filepath="$PROJECT_DIR$/.idea/pontos.iml" />
+    </modules>
+  </component>
+</project>

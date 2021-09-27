@@ -1,6 +1,5 @@
 package com.pontons.vavr.Try;
 
-import io.vavr.CheckedFunction0;
 import io.vavr.collection.List;
 import io.vavr.control.Try;
 import org.junit.Test;
@@ -9,7 +8,7 @@ import org.junit.Test;
  * @author zhengzz
  * @version 1.0.0
  * @className TryDemo
- * @description TODO
+ * @description 异常处理
  * @date 2021/8/30
  */
 public class TryDemo {
