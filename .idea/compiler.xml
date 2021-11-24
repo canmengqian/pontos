@@ -9,24 +9,37 @@
         <outputRelativeToContentRoot value="true" />
         <module name="com.pontons.vavr.demo" />
         <module name="easyrules.demo" />
+        <module name="com.zzz.pontons.message.rocketmq" />
         <module name="com.pontons.authentic" />
         <module name="com.pontons.math" />
+        <module name="com.pontons.mapstruct.demo" />
+        <module name="com.pontons.jdk.demo" />
         <module name="com.pontons.drools" />
         <module name="com.pontons.mockito.demo" />
+        <module name="com.pontons.demo.mapstruct" />
+      </profile>
+      <profile name="Annotation profile for spring-base" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="com.pontons.jwt" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com.pontons.authentic" target="1.8" />
+      <module name="com.pontons.demo.mapstruct" target="1.8" />
       <module name="com.pontons.drools" target="1.8" />
       <module name="com.pontons.easyrules.demo" target="1.8" />
+      <module name="com.pontons.jdk.demo" target="11" />
       <module name="com.pontons.jwt" target="1.7" />
       <module name="com.pontons.kettle" target="1.7" />
+      <module name="com.pontons.mapstruct.demo" target="11" />
       <module name="com.pontons.math" target="1.7" />
       <module name="com.pontons.mockito.demo" target="1.8" />
       <module name="com.pontons.spring.base" target="1.8" />
       <module name="com.pontons.vavr" target="11" />
       <module name="com.pontons.vavr.demo" target="8" />
+      <module name="com.zzz.pontons.message.rocketmq" target="1.7" />
       <module name="com.zzz.pontos.xxl" target="1.8" />
       <module name="easyrules.demo" target="1.8" />
     </bytecodeTargetLevel>
@@ -34,8 +47,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="com.pontons.authentic" options="-parameters" />
+      <module name="com.pontons.demo.mapstruct" options="-parameters" />
       <module name="com.pontons.drools" options="-parameters" />
       <module name="com.pontons.easyrules.demo" options="-parameters" />
+      <module name="com.pontons.jdk.demo" options="-parameters" />
       <module name="com.pontons.jwt" options="" />
       <module name="com.pontons.mockito.demo" options="-parameters" />
       <module name="com.pontons.spring.base" options="-parameters" />

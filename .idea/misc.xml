@@ -11,6 +11,9 @@
         <option value="$PROJECT_DIR$/com.pontons.easyrules.demo/pom.xml" />
         <option value="$PROJECT_DIR$/com.pontons.vavr.demo/pom.xml" />
         <option value="$PROJECT_DIR$/com.pontons.mockito.demo/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontons.demo.mapstruct/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontons.jdk.demo/pom.xml" />
+        <option value="$PROJECT_DIR$/com.zzz.pontons.message.rocketmq/pom.xml" />
       </list>
     </option>
   </component>
