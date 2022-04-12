@@ -6,14 +6,21 @@
         <option value="$PROJECT_DIR$/com.pontons.spring.base/pom.xml" />
         <option value="$PROJECT_DIR$/com.pontons.math/pom.xml" />
         <option value="$PROJECT_DIR$/com.pontons.drools/pom.xml" />
-        <option value="$PROJECT_DIR$/com.pontons.authentic/pom.xml" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/com.pontons.easyrules.demo/pom.xml" />
-        <option value="$PROJECT_DIR$/com.pontons.vavr.demo/pom.xml" />
         <option value="$PROJECT_DIR$/com.pontons.mockito.demo/pom.xml" />
-        <option value="$PROJECT_DIR$/com.pontons.demo.mapstruct/pom.xml" />
-        <option value="$PROJECT_DIR$/com.pontons.jdk.demo/pom.xml" />
         <option value="$PROJECT_DIR$/com.zzz.pontons.message.rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontnos.spring.batch/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontons.spring.session/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontons.spring.shell/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontons.spring.el/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontons.spring.es/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontons.spring.base.adminserver/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontons.spring.source.demo/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontons.java.jvm/pom.xml" />
+        <option value="$PROJECT_DIR$/webflux/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontons.reactor/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontons.authentic/pom.xml" />
       </list>
     </option>
   </component>

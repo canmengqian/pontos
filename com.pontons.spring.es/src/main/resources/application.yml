@@ -1,0 +1,10 @@
+spring:
+  elasticsearch:
+    uris:
+      - "http://localhost:9200"
+    connection-timeout: 10
+    socket-timeout: 30
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
