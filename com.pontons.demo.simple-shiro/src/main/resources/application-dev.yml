@@ -1,0 +1,19 @@
+
+beetlsql:
+  sqlManagers: sqlManager1
+  sqlManager1:
+    ds: ds1
+    basePackage: com.pontons.demo.simpleshiro
+    daoSuffix: Mapper
+    dbStyle: org.beetl.sql.core.db.MySqlStyle
+    dev: true
+    sqlPath: sql
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: rootroot
+    url: jdbc:mysql://192.168.0.6:3306/media?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
+  redis:
+    host: 172.21.112.215
+    port: 6379
