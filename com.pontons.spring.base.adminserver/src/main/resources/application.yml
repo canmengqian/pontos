@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: admin-server
+  boot:
+    admin:
+      ui:
+        title: Media Stack Admin
+        remember-me-enabled: true
+        poll-timer:
+          cache: 2500
+          datasource: 2500
+          gc: 2500
+          process: 2500
+          memory: 2500
+          threads: 2500
+        cache-templates: true
+        cache:
+          max-age: 3600
+          no-cache: false
+          no-store: false
+      instance-auth:
+        default-user-name: admin
+        enabled: false
+        default-password: admin
+      discovery:
+        enabled: true
+      monitor:
+        default-retries: 0
+        default-timeout: 10000
+        status-lifetime: 10000
+  security:
+    user:
+      name: user
+      password: admin
+server:
+  port: 18080
