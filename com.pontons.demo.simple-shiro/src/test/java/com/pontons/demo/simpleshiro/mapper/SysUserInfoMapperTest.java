@@ -8,16 +8,29 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.annotation.Resource;
 
-import static org.junit.jupiter.api.Assertions.*;
+
 @SpringBootTest(classes = Application.class)
 @RunWith(SpringRunner.class)
 public class SysUserInfoMapperTest {
-    @Resource
-    SysUserInfoMapper userInfoMapper;
 
+    @Resource
+    SysUserInfoMapper sysUserInfoMapper;
     @Test
-    public void  test(){
-        userInfoMapper.createLambdaQuery ().select ();
+    public void test(){
+        sysUserInfoMapper.createLambdaQuery ().select ();
     }
 
+    @Test
+    public  void testgetAllRole(){
+        sysUserInfoMapper.getAllRole ("zhansgan").forEach (r->{
+            System.out.println (r.toString ());
+        });
+    }
+
+    @Test
+    public void testgetAllPerssion(){
+        sysUserInfoMapper.getAllPerssion ("zhangsan").forEach (p->{
+            System.out.println (p.toString ());
+        });
+    }
 }

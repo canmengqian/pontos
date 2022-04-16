@@ -7,7 +7,6 @@ beetlsql:
     daoSuffix: Mapper
     dbStyle: org.beetl.sql.core.db.MySqlStyle
     dev: true
-    sqlPath: sql
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver

@@ -1,10 +1,7 @@
 package com.pontons.demo.simpleshiro.entity;
 import java.util.Date;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import lombok.experimental.Accessors;
 import org.beetl.sql.annotation.entity.*;
 /*
@@ -18,6 +15,7 @@ import org.beetl.sql.annotation.entity.*;
 @NoArgsConstructor
 @Accessors(chain = true)
 @Builder
+@ToString
 public class SysRole implements java.io.Serializable {
 	/**
 	 * 角色ID
