@@ -44,7 +44,7 @@ public class CodeGenner {
         SimpleMavenProject simpleMavenProject = new SimpleMavenProject ();
 
         simpleMavenProject.setBasePackage ("com.pontons.demo.simpleshiro");
-        String tableName = "sys_user_info";
+        String tableName = "sys_role_permission";
         config.gen (tableName, simpleMavenProject);
     }
 
