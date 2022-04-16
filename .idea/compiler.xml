@@ -42,6 +42,7 @@
       <module name="com.zzz.pontons.message.rocketmq" target="1.7" />
       <module name="com.zzz.pontos.xxl" target="1.8" />
       <module name="easyrules.demo" target="1.8" />
+      <module name="spring" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
