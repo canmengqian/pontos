@@ -1,3 +1,5 @@
 spring:
   application:
     name: nacos-config-test
+  profiles:
+    active: dev
