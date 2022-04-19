@@ -62,6 +62,7 @@
       <module name="com.zzz.pontos.xxl" target="1.8" />
       <module name="demo (3) (com.pontons.vavr)" target="8" />
       <module name="easyrules.demo" target="1.8" />
+      <module name="spring" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -27,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/com.pontons.vavr.demo/demo (3) (com.pontons.vavr).iml" filepath="$PROJECT_DIR$/com.pontons.vavr.demo/demo (3) (com.pontons.vavr).iml" />
       <module fileurl="file://$PROJECT_DIR$/com.pontons.easyrules.demo/easyrules.demo.iml" filepath="$PROJECT_DIR$/com.pontons.easyrules.demo/easyrules.demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pontos.iml" filepath="$PROJECT_DIR$/.idea/pontos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.pontons.spring.base/spring.iml" filepath="$PROJECT_DIR$/com.pontons.spring.base/spring.iml" />
     </modules>
   </component>
 </project>

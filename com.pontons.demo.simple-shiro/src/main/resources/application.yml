@@ -1,0 +1,14 @@
+server:
+  port: 18080
+  servlet:
+    context-path: /sys
+spring:
+  profiles:
+    active: dev
+  devtools:
+    livereload:
+      enabled: true
+      port: 35729
+    remote:
+      restart:
+        enabled: true
