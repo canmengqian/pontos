@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/webflux/pom.xml" />
         <option value="$PROJECT_DIR$/com.pontons.reactor/pom.xml" />
         <option value="$PROJECT_DIR$/com.pontons.authentic/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontons.shiro.demo/pom.xml" />
       </list>
     </option>
   </component>

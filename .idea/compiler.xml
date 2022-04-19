@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="com.pontons.spring.shell" />
+        <module name="com.pontons.shiro.demo" />
         <module name="com.pontons.reactor" />
         <module name="com.zzz.pontons.message.rocketmq" />
         <module name="com.pontons.spring.source.demo" />
@@ -46,6 +47,7 @@
       <module name="com.pontons.math" target="1.7" />
       <module name="com.pontons.mockito.demo" target="1.8" />
       <module name="com.pontons.reactor" target="1.7" />
+      <module name="com.pontons.shiro.demo" target="1.7" />
       <module name="com.pontons.spring.base" target="1.8" />
       <module name="com.pontons.spring.base.adminserver" target="1.8" />
       <module name="com.pontons.spring.el" target="1.8" />

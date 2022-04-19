@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/com.pontons.math/com.pontons.math.iml" filepath="$PROJECT_DIR$/com.pontons.math/com.pontons.math.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.pontons.mockito.demo/com.pontons.mockito.demo.iml" filepath="$PROJECT_DIR$/com.pontons.mockito.demo/com.pontons.mockito.demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.pontons.reactor/com.pontons.reactor.iml" filepath="$PROJECT_DIR$/com.pontons.reactor/com.pontons.reactor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.pontons.shiro.demo/com.pontons.shiro.demo.iml" filepath="$PROJECT_DIR$/com.pontons.shiro.demo/com.pontons.shiro.demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.pontons.spring.base/com.pontons.spring.base.iml" filepath="$PROJECT_DIR$/com.pontons.spring.base/com.pontons.spring.base.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.pontons.spring.base.adminserver/com.pontons.spring.base.adminserver.iml" filepath="$PROJECT_DIR$/com.pontons.spring.base.adminserver/com.pontons.spring.base.adminserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.pontons.spring.el/com.pontons.spring.el.iml" filepath="$PROJECT_DIR$/com.pontons.spring.el/com.pontons.spring.el.iml" />
