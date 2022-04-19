@@ -21,14 +21,14 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 @RestController
 @RequestMapping("discovery")
 @Api("nacos测试")
-@NacosPropertySource(dataId = "nacos-config", autoRefreshed = true)
+@NacosPropertySource(dataId = "nacos-config", groupId = "nacos" ,autoRefreshed = true)
 public class DiscoveryController {
 
     @NacosInjected
     private ConfigService configService;
 
-    @NacosValue(value = "${useLocalCache:false}", autoRefreshed = true)
-    private boolean useLocalCache;
+    @NacosValue(value = "${useLocalCache:123}", autoRefreshed = true)
+    private String useLocalCache;
 
 
     @RequestMapping(value = "/get", method = GET)
