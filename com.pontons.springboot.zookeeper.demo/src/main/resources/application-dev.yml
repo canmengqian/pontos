@@ -1,0 +1,12 @@
+
+spring:
+  cloud:
+    zookeeper:
+      config:
+        enabled: true
+        fail-fast: true
+        root: config
+      connect-string: localhost:2181
+      enabled: true
+server:
+  port: 38085
