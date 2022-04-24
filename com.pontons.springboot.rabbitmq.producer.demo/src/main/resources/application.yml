@@ -1,0 +1,16 @@
+server:
+  port: 38086
+spring:
+  rabbitmq:
+    address-shuffle-mode: random
+    host: localhost
+    dynamic: true
+    channel-rpc-timeout: 10ms
+    connection-timeout: 20000
+    password: guest
+    username: guest
+    publisher-confirm-type: simple
+    publisher-returns: true
+    requested-channel-max: 2047
+    port: 5672
+    virtual-host: /
