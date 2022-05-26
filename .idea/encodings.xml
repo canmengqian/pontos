@@ -4,11 +4,14 @@
     <file url="file://$PROJECT_DIR$/com.pontnos.spring.batch/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com.pontons.authentic/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com.pontons.authentic/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.pontons.base.swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.pontons.base.swagger/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com.pontons.drools/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com.pontons.easyrules.demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com.pontons.java.jvm/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com.pontons.math/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com.pontons.mockito.demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.pontons.rabbitmq.demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com.pontons.reactor/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com.pontons.shiro.demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com.pontons.shiro.demo/src/main/resources" charset="UTF-8" />
@@ -20,6 +23,13 @@
     <file url="file://$PROJECT_DIR$/com.pontons.spring.shell/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com.pontons.spring.source.demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com.pontons.spring.webflux/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.pontons.springboot.kafka.producer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.pontons.springboot.nacos-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.pontons.springboot.nacos-config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.pontons.springboot.rabbitmq.producer.demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.pontons.springboot.zookeeper.demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.pontons.webflux.demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.pontons.zookeeper.demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com.zzz.pontons.message.rocketmq/src/main/java" charset="UTF-8" />
   </component>
 </project>

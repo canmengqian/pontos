@@ -9,14 +9,6 @@ v
 Fcom.pontons.drools/src/main/java/com/pontons/drools/entity/Person.java,a\d\ada86633916885d16ac658821d46ceeb269a0319
 M
 com.pontons.vavr.demo/pom.xml,3\d\3df76ff78eefa6668db9c7fdebc5d778f5cd8001
-í
-bcom.zzz.pontons.message.rocketmq/src/main/java/com/zzz/pontos/message/producer/OnewayProducer.java,4\7\471d73e7a6b24be32144dbce92ab899779e4915d
-ë
-acom.zzz.pontons.message.rocketmq/src/main/java/com/zzz/pontos/message/producer/AsyncProducer.java,a\8\a81f828e70d401f7e6d23b8196014262dfe01143
-ú
-lcom.zzz.pontons.message.rocketmq/src/main/java/com/zzz/pontos/message/producer/ScheduledMessageProducer.java,1\d\1d81245fc809967797b09fbd1a80380f6d69522a
-ê
-`com.zzz.pontons.message.rocketmq/src/main/java/com/zzz/pontos/message/producer/SyncProducer.java,1\8\18a0cb58484cffe7c85b86b148af66392aedb4b2
 ú
 lcom.zzz.pontons.message.rocketmq/src/main/java/com/zzz/pontos/message/comsumer/ScheduledMessageConsumer.java,3\1\31f0ce9862b02384ac1ee82bbb68c4b7450bf351
 U
@@ -107,8 +99,6 @@ L
 com.pontons.jdk.demo/pom.xml,8\d\8df5c77beb7b421eb5e38320dcbd8cc10ab1936e
 _
 /com.pontons.spring.base/com.pontons.jwt/pom.xml,5\5\551381e73996a75ee54449678cf813b14fb2192f
-O
-com.pontons.spring.base/pom.xml,a\1\a1d2d1577c1cc63cc804e57820db084110421400
 X
 (com.zzz.pontons.message.rocketmq/pom.xml,3\f\3f3f256f1064df569d34f426ab756e78f13c8987
 â
@@ -123,10 +113,6 @@ Zcom.pontons.demo.mapstruct/src/main/java/com/pontons/demo/mapstruct/domain/bean
 dcom.pontons.demo.mapstruct/src/test/java/com/pontons/demo/mapstruct/service/UserCovertBasicTest.java,8\f\8f8cd577e0ecb11c61278f9cd9ea5ead701df14c
 á
 Wcom.pontons.jdk.demo/src/main/java/com/pontons/jdk/demo/lang/reflect/WeakCacheTest.java,b\5\b5af54f7c2dc76a1790ad879b65e76b082e440f4
-P
- com.pontons.authentic/.gitignore,e\4\e409d5b09ac1c9c9c931c9fa5d21cc94c99468c1
-U
-%com.pontons.easyrules.demo/.gitignore,6\9\69187661f5fb1bb70d4e44f04e086868c42c8ec7
 P
  com.pontons.vavr.demo/.gitignore,7\8\780d0c854e877678a975287c3d6e7bfaa78dfd90
 z
@@ -163,8 +149,6 @@ k
 -com.pontons.java.jvm/com.pontons.java.jvm.iml,f\3\f39a75432e6deaaee9f7ff1b3607d71934058ae2
 |
 Lcom.pontons.java.jvm/src/main/java/com/pontons/java/jvm/service/HeapOOM.java,1\8\1877d9198a0f00d1abeba192c940630ff13d961c
-L
-com.pontons.java.jvm/pom.xml,d\3\d3642271facaa7de9468ecfbe88f136629f1bbe8
 U
 %com.pontons.math/com.pontons.math.iml,2\1\21451047393d383922d8dbdde8009d55157659d9
 f
@@ -175,8 +159,6 @@ j
 +com.pontons.reactor/com.pontons.reactor.iml,7\6\768e3970e7bf3ca021d02533fbcfc02b2b2abdac
 K
 com.pontons.reactor/pom.xml,a\b\ab8b3e2b7073c5e640d31ab8e7208139bbd4cc92
-^
-.com.pontons.spring.base.adminserver/.gitignore,a\1\a1903ade031979319b67f3f133d0676512340b6f
 ñ
 fcom.pontons.spring.base.adminserver/src/main/java/com/pontons/spring/base/adminserver/Application.java,e\6\e65a7fa8f466356d030bc416637a5ba109498f62
 õ
@@ -189,8 +171,6 @@ X
 ,com.pontons.spring.base.adminserver/mvnw.cmd,c\5\c5b73e5694d65e345a4d7f1893a096bd8ccbdf48
 [
 +com.pontons.spring.base.adminserver/pom.xml,b\e\bee491ab8f313bdbd1f16830f65b7f4cd06b70c4
-P
- com.pontons.spring.el/.gitignore,b\b\bb5f1976a9d14d4d102049af0b9731e0edcde6b1
 z
 Jcom.pontons.spring.el/src/main/java/com/pontons/spring/el/Application.java,a\7\a7d1fda50126d089abda79c784339ee075d334ad
 
@@ -207,8 +187,6 @@ M
 com.pontons.spring.el/pom.xml,c\b\cb5e4da4df9176231480960166e499db40f56294
 {
 Kcom.pontons.spring.el/src/test/java/com/pontons/spring/el/SpringELTest.java,b\5\b54973c9dd5e5bad6aa0b1e2fb0305efbf876e38
-P
- com.pontons.spring.es/.gitignore,9\5\959e1f9ee447396c748fd0850d993f9caae18fa2
 z
 Jcom.pontons.spring.es/src/main/java/com/pontons/spring/es/Application.java,e\6\e6721ae0f9f81169e47dfab0dd76e48172241e84
 
@@ -225,8 +203,6 @@ N
 com.pontons.spring.es/mvnw.cmd,2\e\2e1c28d08ba97903723003846bc5a1ab4d4382d1
 M
 com.pontons.spring.es/pom.xml,5\d\5d1e8361b60f89f46a4db3480aa21fa8e86c2535
-U
-%com.pontons.spring.session/.gitignore,9\9\9954128bb82cd7cedb1092d2db4322a6909b23b1
 Ñ
 Tcom.pontons.spring.session/src/main/java/com/pontons/spring/session/Application.java,c\d\cda98cffaa13315ee607e883a680c53764d02b10
 â
@@ -241,8 +217,6 @@ S
 #com.pontons.spring.session/mvnw.cmd,a\f\af39ec9cf091ff09376d875a70aaa8ae9ac70b6f
 R
 "com.pontons.spring.session/pom.xml,7\f\7fc627b2eb7d5cd4168331fab7762590b524f013
-S
-#com.pontons.spring.shell/.gitignore,5\1\5193adecc87652fa90f854c90b08ab1d326b15a9
 Ä
 Pcom.pontons.spring.shell/src/main/java/com/pontons/spring/shell/Application.java,e\5\e5b63d82d37dbdde962813c2e252445c784ff69f
 Ö
@@ -259,8 +233,6 @@ P
  com.pontons.spring.shell/pom.xml,c\0\c05299daf35ef27e0bee24f24da472d5bb984f52
 ê
 `com.pontons.spring.shell/src/main/java/com/pontons/spring/shell/service/TranslationCommands.java,e\c\ec3fdd5c3c92adb07a7e4a80ecef26f318b5bd8f
-Y
-)com.pontons.spring.source.demo/.gitignore,3\2\32b16b815a687cc086a09b3549c833af3cd37392
 å
 \com.pontons.spring.source.demo/src/main/java/com/pontons/spring/source/demo/Application.java,0\0\0049a03dd02f6b91f1099bfab0fe09f241ef678d
 ë
@@ -283,12 +255,6 @@ W
 'com.pontons.spring.source.demo/mvnw.cmd,2\2\22926224f5926e029860d77844212663dd696328
 ï
 ecom.pontons.spring.source.demo/src/test/java/com/pontons/spring/source/demo/context/util/PdfTest.java,6\f\6f008898d35d49aab83029f2735dfe4dc5273bc3
-V
-&com.pontons.spring.source.demo/pom.xml,9\6\96bfefd4f5ba7b47f9720467544589066b1ce314
-U
-%com.pontons.spring.webflux/.gitignore,7\8\7871eed482ee498660f4643783cda88bb30054eb
-Ñ
-Tcom.pontons.spring.webflux/src/main/java/com/pontons/spring/webflux/Application.java,9\a\9ace72126a6cfe92856da043b0be4ff6fc9b4d35
 â
 Ycom.pontons.spring.webflux/src/test/java/com/pontons/spring/webflux/ApplicationTests.java,c\5\c55af84f5e96391c8fb575e37bccd70b5162a1ee
 ä
@@ -311,8 +277,6 @@ o
 ?.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_9.xml,c\1\c13573725502ac8742e2f6872d294af47e78740a
 p
 @.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_10.xml,d\c\dc88f7be10a3a4fff78bd16d48a57be2897e966f
-l
-<.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_7.xml,4\1\4155080e638ac678faee4e900abaa8a7941043c2
 l
 <.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_9.xml,a\0\a0aa5c8ada6df7e5767e088f95c9cc6d908e679e
 m
@@ -825,10 +789,3 @@ i
 9.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_4.xml,9\2\92caafdd2526018d01191b6da5b57a33c45dfab0
 b
 2.idea/libraries/Maven__org_yaml_snakeyaml_1_29.xml,1\3\130ecaa0643a38c9c76b10263d44359fc3c850d1
-Ö
-Ucom.pontons.easyrules.demo/src/main/java/com/pontons/easyrule/demo/bean/PropBean.java,0\3\03fd1d1be7ee753534b3fb7091fb3d1f12e4e75e
-S
-#com.pontnos.spring.batch/.gitignore,0\c\0c0a5832e0593b6eb20854c7cf3d2f16e709c2bb
-:
-
-.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302

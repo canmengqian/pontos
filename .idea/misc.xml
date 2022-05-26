@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <writeAnnotations>
+      <writeAnnotation name="com.alibaba.nacos.api.annotation.NacosInjected" />
+    </writeAnnotations>
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -22,6 +27,14 @@
         <option value="$PROJECT_DIR$/com.pontons.reactor/pom.xml" />
         <option value="$PROJECT_DIR$/com.pontons.authentic/pom.xml" />
         <option value="$PROJECT_DIR$/com.pontons.shiro.demo/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontons.springboot.nacos-config/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontons.base.swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontons.springboot.kafka.producer/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontons.webflux.demo/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontons.zookeeper.demo/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontons.springboot.zookeeper.demo/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontons.springboot.rabbitmq.producer.demo/pom.xml" />
+        <option value="$PROJECT_DIR$/com.pontons.rabbitmq.demo/pom.xml" />
       </list>
     </option>
   </component>

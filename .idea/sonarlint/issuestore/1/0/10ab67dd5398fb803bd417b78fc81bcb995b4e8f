@@ -1,0 +1,22 @@
+
+E
+java:S3740H"/Provide the parametrized type for this generic.(¹Œ’
+E
+java:S3740H"/Provide the parametrized type for this generic.(¹Œ’
+j
+java:S3305%"TInject this field value directly into "importUserJob", the only method that uses it.(ÿ£î°
+b
+java:S3305("LInject this field value directly into "step1", the only method that uses it.(ô‚àË
+M
+java:S1135"2Complete the task associated to this TODO comment.(Â“Œùÿÿÿÿ
+N
+java:S38782"8Remove this array creation and simply pass the elements.(ÜÖˆ
+B
+java:S35993",Use another way to initialize this instance.(Ñ¦æ€
+o
+java:S11713"YMove the contents of this initializer to a standard constructor or to field initializers.(Ñ¦æ€
+V	java:S125D"<This block of commented-out lines of code should be removed.(¶ß‘şÿÿÿÿ
+\
+java:S1075F"ARefactor your code to get this URI from a customizable parameter.(ëĞ…úÿÿÿÿ
+w
+java:S1128"\Remove this unused import 'org.mybatis.spring.batch.builder.MyBatisCursorItemReaderBuilder'.(‚Èøøÿÿÿÿ

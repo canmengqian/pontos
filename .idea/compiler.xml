@@ -9,21 +9,29 @@
         <outputRelativeToContentRoot value="true" />
         <module name="com.pontons.spring.shell" />
         <module name="com.pontons.shiro.demo" />
-        <module name="com.pontons.reactor" />
+        <module name="com.pontons.springboot.kafka.producer" />
         <module name="com.zzz.pontons.message.rocketmq" />
+        <module name="com.pontons.springboot.zookeeper.demo" />
+        <module name="com.pontons.springboot.nacos-config" />
+        <module name="com.pontons.base.swagger" />
+        <module name="com.pontons.drools" />
+        <module name="com.pontons.spring.session" />
+        <module name="com.pontons.spring.es" />
+        <module name="com.pontons.math" />
+        <module name="com.pontons.zookeeper.demo" />
+        <module name="com.pontons.spring.webflux" />
+        <module name="com.pontons.rabbitmq.demo" />
+        <module name="com.pontons.reactor" />
         <module name="com.pontons.spring.source.demo" />
         <module name="com.pontons.easyrules.demo" />
         <module name="com.pontons.mockito.demo" />
-        <module name="com.pontons.drools" />
-        <module name="com.pontons.spring.session" />
         <module name="com.pontons.spring.el" />
-        <module name="com.pontons.spring.es" />
         <module name="com.pontons.java.jvm" />
         <module name="com.pontons.authentic" />
-        <module name="com.pontons.math" />
         <module name="com.pontons.mapstruct.demo" />
         <module name="com.pontnos.spring.batch" />
-        <module name="com.pontons.spring.webflux" />
+        <module name="com.pontons.webflux.demo" />
+        <module name="com.pontons.springboot.rabbitmq.producer.demo" />
         <module name="com.pontons.spring.base.adminserver" />
       </profile>
       <profile name="Annotation profile for spring-base" enabled="true">
@@ -36,6 +44,7 @@
     <bytecodeTargetLevel>
       <module name="com.pontnos.spring.batch" target="1.8" />
       <module name="com.pontons.authentic" target="1.8" />
+      <module name="com.pontons.base.swagger" target="1.8" />
       <module name="com.pontons.demo.mapstruct" target="1.8" />
       <module name="com.pontons.drools" target="1.8" />
       <module name="com.pontons.easyrules.demo" target="1.8" />
@@ -46,6 +55,7 @@
       <module name="com.pontons.mapstruct.demo" target="11" />
       <module name="com.pontons.math" target="1.7" />
       <module name="com.pontons.mockito.demo" target="1.8" />
+      <module name="com.pontons.rabbitmq.demo" target="8" />
       <module name="com.pontons.reactor" target="1.7" />
       <module name="com.pontons.shiro.demo" target="1.7" />
       <module name="com.pontons.spring.base" target="1.8" />
@@ -56,8 +66,14 @@
       <module name="com.pontons.spring.shell" target="1.8" />
       <module name="com.pontons.spring.source.demo" target="11" />
       <module name="com.pontons.spring.webflux" target="1.8" />
+      <module name="com.pontons.springboot.kafka.producer" target="1.8" />
+      <module name="com.pontons.springboot.nacos-config" target="1.8" />
+      <module name="com.pontons.springboot.rabbitmq.producer.demo" target="1.8" />
+      <module name="com.pontons.springboot.zookeeper.demo" target="1.8" />
       <module name="com.pontons.vavr" target="11" />
       <module name="com.pontons.vavr.demo" target="8" />
+      <module name="com.pontons.webflux.demo" target="1.8" />
+      <module name="com.pontons.zookeeper.demo" target="1.8" />
       <module name="com.zzz.pontons.message.rocketmq" target="1.7" />
       <module name="com.zzz.pontos.xxl" target="1.8" />
       <module name="demo (3) (com.pontons.vavr)" target="8" />
@@ -69,6 +85,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="com.pontnos.spring.batch" options="-parameters" />
       <module name="com.pontons.authentic" options="-parameters" />
+      <module name="com.pontons.base.swagger" options="-parameters" />
       <module name="com.pontons.demo.mapstruct" options="-parameters" />
       <module name="com.pontons.drools" options="-parameters" />
       <module name="com.pontons.easyrules.demo" options="-parameters" />
@@ -83,7 +100,13 @@
       <module name="com.pontons.spring.shell" options="-parameters" />
       <module name="com.pontons.spring.source.demo" options="-parameters" />
       <module name="com.pontons.spring.webflux" options="-parameters" />
+      <module name="com.pontons.springboot.kafka.producer" options="-parameters" />
+      <module name="com.pontons.springboot.nacos-config" options="-parameters" />
+      <module name="com.pontons.springboot.rabbitmq.producer.demo" options="-parameters" />
+      <module name="com.pontons.springboot.zookeeper.demo" options="-parameters" />
       <module name="com.pontons.vavr.demo" options="" />
+      <module name="com.pontons.webflux.demo" options="-parameters" />
+      <module name="com.pontons.zookeeper.demo" options="-parameters" />
       <module name="com.zzz.pontos.xxl" options="-parameters" />
       <module name="easyrules.demo" options="-parameters" />
     </option>
